@@ -7,23 +7,7 @@ const fallbackProducts = [
   { id: 1, name: "Racing Helmet Pro", category: "Safety", price: 18500, oldPrice: 22000, rating: 4.8, stock: 12, badge: "Best Seller", image: "images/helmet.svg", images: ["images/helmet.svg"] },
   { id: 2, name: "LED Headlight Kit", category: "Lighting", price: 7600, oldPrice: 9200, rating: 4.6, stock: 8, badge: "New Arrival", image: "images/headlight.svg", images: ["images/headlight.svg"] },
 { id: 3, name: "Indicator Light Set", category: "Lighting", price: 6800, oldPrice: 8200, rating: 4.5, stock: 6, badge: "Bright", image: "images/indicator.svg", images: ["images/indicator.svg"] },
-{
-  id: 4,
-  name: "Light Set",
-  category: "Lighting",
-  price: 6800,
-  oldPrice: 8200,
-  rating: 4.5,
-  stock: 6,
-  badge: "Bright",
-  image: "images/light-set-1.jpg",
-  images: [
-    "images/light-set-1.jpg",
-    "images/light-set-2.jpg",
-    "images/light-set-3.jpg"
-  ]
-}
-];
+{id: 4,  name: "Light Set", category: "Lighting", price: 6800,  oldPrice: 8200,rating: 4.5,stock: 6, badge: "Bright",image: "images/light-set-1.jpg",images: [  "images/light-set-1.jpg",  "images/light-set-2.jpg",   "images/light-set-3.jpg"]}];
 
 const WHATSAPP_PHONE = "94768664483";
 
