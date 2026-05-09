@@ -6,15 +6,9 @@ let galleryIndex = 0;
 const fallbackProducts = [
   { id: 1, name: "Racing Helmet Pro", category: "Safety", price: 18500, oldPrice: 22000, rating: 4.8, stock: 12, badge: "Best Seller", image: "images/helmet.svg", images: ["images/helmet.svg"] },
   { id: 2, name: "LED Headlight Kit", category: "Lighting", price: 7600, oldPrice: 9200, rating: 4.6, stock: 8, badge: "New Arrival", image: "images/headlight.svg", images: ["images/headlight.svg"] },
-  { id: 3, name: "Digital Speed Meter", category: "Electronics", price: 12500, oldPrice: 14500, rating: 4.7, stock: 5, badge: "Limited", image: "images/speedmeter.svg", images: ["images/speedmeter.svg"] },
-  { id: 4, name: "Performance Tool Set", category: "Maintenance", price: 9900, oldPrice: 11800, rating: 4.5, stock: 20, badge: "Popular", image: "images/tools.svg", images: ["images/tools.svg"] },
-  { id: 5, name: "Riding Gloves", category: "Safety", price: 4200, oldPrice: 5100, rating: 4.4, stock: 15, badge: "Hot Deal", image: "images/gloves.svg", images: ["images/gloves.svg"] },
-  { id: 6, name: "Chain Cleaning Brush", category: "Maintenance", price: 1850, oldPrice: 2400, rating: 4.3, stock: 30, badge: "Budget", image: "images/brush.svg", images: ["images/brush.svg"] },
-  { id: 7, name: "USB Mobile Charger", category: "Electronics", price: 5500, oldPrice: 6900, rating: 4.6, stock: 10, badge: "Useful", image: "images/charger.svg", images: ["images/charger.svg"] },
-  { id: 8, name: "Indicator Light Set", category: "Lighting", price: 6800, oldPrice: 8200, rating: 4.5, stock: 6, badge: "Bright", image: "images/indicator.svg", images: ["images/indicator.svg"] },
-{ id: 8, name: "Indicator Light Set", category: "Lighting", price: 6800, oldPrice: 8200, rating: 4.5, stock: 6, badge: "Bright", image: "images/indicator.svg", images: ["images/indicator.svg"] },
+{ id: 3, name: "Indicator Light Set", category: "Lighting", price: 6800, oldPrice: 8200, rating: 4.5, stock: 6, badge: "Bright", image: "images/indicator.svg", images: ["images/indicator.svg"] },
 {
-  id: 9,
+  id: 4,
   name: "Light Set",
   category: "Lighting",
   price: 6800,
