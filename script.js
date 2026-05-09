@@ -11,7 +11,7 @@ const fallbackProducts = [
   { id: 5, name: "Riding Gloves", category: "Safety", price: 4200, oldPrice: 5100, rating: 4.4, stock: 15, badge: "Hot Deal", image: "images/gloves.svg", images: ["images/gloves.svg"] },
   { id: 6, name: "Chain Cleaning Brush", category: "Maintenance", price: 1850, oldPrice: 2400, rating: 4.3, stock: 30, badge: "Budget", image: "images/brush.svg", images: ["images/brush.svg"] },
   { id: 7, name: "USB Mobile Charger", category: "Electronics", price: 5500, oldPrice: 6900, rating: 4.6, stock: 10, badge: "Useful", image: "images/charger.svg", images: ["images/charger.svg"] },
-  { id: 8, name: "Indicator Light Set", category: "Lighting", price: 6800, oldPrice: 8200, rating: 4.5, stock: 6, badge: "Bright", image: "images/indicator.svg", images: ["images/indicator.svg"] }
+  { id: 8, name: "Indicator Light Set", category: "Lighting", price: 6800, oldPrice: 8200, rating: 4.5, stock: 6, badge: "Bright", image: "images/indicator.svg", images: ["images/indicator.svg"] },
   { id: 9, name: " Light Set", category: "Safety", price: 6800, oldPrice: 8200, rating: 4.5, stock: 6, badge: "Bright", image: "download (1).jpg", images: ["download (2).jpg"] ,images: ["download (3).jpg"]}
   
 ];
