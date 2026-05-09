@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 300">
+<defs>
+<linearGradient id="g" x1="0" x2="1"><stop offset="0" stop-color="#facc15"/><stop offset="1" stop-color="#fb923c"/></linearGradient>
+<radialGradient id="r" cx="50%" cy="45%" r="60%"><stop offset="0" stop-color="#facc15" stop-opacity=".35"/><stop offset="1" stop-color="#111113" stop-opacity="0"/></radialGradient>
+<filter id="s"><feDropShadow dx="0" dy="20" stdDeviation="18" flood-color="#facc15" flood-opacity=".28"/></filter>
+</defs>
+<rect width="420" height="300" rx="34" fill="#111113"/>
+<circle cx="210" cy="145" r="118" fill="url(#r)"/>
+<g filter="url(#s)"><rect x="100" y="125" width="210" height="48" rx="24" fill="url(#g)" stroke="#fff" stroke-width="8"/>
+<path d="M142 174 V223 M178 174 V223 M214 174 V223 M250 174 V223 M286 174 V223" stroke="#facc15" stroke-width="10" stroke-linecap="round"/>
+<path d="M306 138 L356 111" stroke="#fff" stroke-width="16" stroke-linecap="round"/></g>
+<text x="210" y="268" text-anchor="middle" font-family="Arial" font-size="22" font-weight="900" fill="#facc15">Cleaning Brush</text>
+</svg>

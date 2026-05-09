@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bike Hub | Premium Bike Accessories Store</title>
+  <meta name="description" content="Bike Hub modern sport bike accessories store using Java, HTML, CSS and JavaScript." />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="images/bikehub-real-logo.jpg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700;900&family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="noise"></div>
+  <div class="cursor-glow" id="cursorGlow"></div>
+
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand brand-highlight" href="#home">
+        <img class="brand-logo-real" src="images/bikehub-real-logo.jpg" alt="Bike Hub shop logo" />
+        <span>
+          <strong>Bike Hub</strong>
+          <small>Modern Rider Store</small>
+        </span>
+      </a>
+
+      <button class="menu-btn" id="menuBtn" aria-label="Open menu">☰</button>
+
+      <nav class="nav" id="navMenu">
+        <a class="active" href="#home">Home</a>
+        <a href="#showcase">Showcase</a>
+        <a href="#products">Products</a>
+        <a href="#location">Location</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <button class="cart-pill" id="openCartBtn">🛒 <span id="cartCount">0</span></button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero exact-hero" id="home">
+      <div class="hero-circuit-left"></div>
+      <div class="hero-circuit-right"></div>
+      <div class="container hero-grid exact-grid">
+        <div class="hero-copy reveal">
+          <p class="kicker">PREMIUM BIKE ACCESSORIES STORE</p>
+          <h1>Ride smarter<br>with <span>Bike</span><br><span>Hub</span></h1>
+          <p class="hero-text">
+            A modern online bike accessories store with product photo inspection, WhatsApp cash-on-delivery ordering,
+            and a local admin computer dashboard for manual orders, Excel receipts, and monthly reports.
+          </p>
+
+          <div class="business-strip">
+            <span>📍 267/4 Warana Rd, Kalagedihena</span>
+            <span>📞 0768664483</span>
+            <span>✉️ hasantha.madhuka.93@gmail.com</span>
+          </div>
+
+          <div class="hero-actions">
+            <a href="#products" class="btn primary"><span class="btn-icon">▣</span> Explore Products <span class="btn-arrow">→</span></a>
+            <a class="btn whatsapp-hero-btn" href="https://wa.me/94768664483?text=Hello%20BikeHub%2C%20I%20want%20to%20order%20bike%20accessories." target="_blank" rel="noopener">💬 WhatsApp Order</a>
+          </div>
+
+          <div class="hero-metrics">
+            <div><strong>&lt;/&gt;</strong><span><b>WhatsApp</b><br>Orders</span></div>
+            <div><strong>◉</strong><span><b>Fast</b><br>Delivery</span></div>
+            <div><strong>Quality</strong><span><b>Checked</b><br>Products</span></div>
+          </div>
+        </div>
+
+        <div class="hero-visual exact-logo-area reveal">
+          <div class="logo-orbit orbit-one"></div>
+          <div class="logo-orbit orbit-two"></div>
+          <div class="logo-orbit orbit-three"></div>
+
+          <div class="hero-logo-card">
+            <img src="images/bikehub-real-logo.jpg" alt="Bike Hub large shop logo" />
+            <h2>Bike Hub</h2>
+            <p>Premium Bike Accessories Store</p>
+          </div>
+
+          <div class="logo-feature feature-one">⚡ LED Kits</div>
+          <div class="logo-feature feature-two">🛡️ Safety Gear</div>
+          <div class="logo-feature feature-three">🛠️ Tools</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section showcase" id="showcase">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="kicker">Creative showcase</p>
+          <h2>Designed like a premium bike accessory brand</h2>
+          <p>The layout uses bold contrast, yellow lighting, product photo cards, hover animations and a professional shopping experience.</p>
+        </div>
+
+        <div class="showcase-grid">
+          <article class="show-card reveal">
+            <img src="images/helmet.svg" alt="Helmet accessory" />
+            <h3>Safety First</h3>
+            <p>Premium helmets and riding protection for daily riders.</p>
+          </article>
+          <article class="show-card reveal">
+            <img src="images/headlight.svg" alt="LED headlight" />
+            <h3>Night Vision</h3>
+            <p>Bright LED kits and indicators for safer night rides.</p>
+          </article>
+          <article class="show-card reveal">
+            <img src="images/tools.svg" alt="Maintenance tools" />
+            <h3>Garage Ready</h3>
+            <p>Tools, cleaning kits and maintenance accessories.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section products-section" id="products">
+      <div class="container">
+        <div class="section-head product-head reveal">
+          <div>
+            <p class="kicker">GitHub Pages product showcase</p>
+            <h2>Accessories collection</h2>
+          </div>
+
+          <div class="filters">
+            <input id="searchInput" type="search" placeholder="Search accessories..." />
+            <select id="categoryFilter">
+              <option value="All">All Categories</option>
+              <option value="Safety">Safety</option>
+              <option value="Lighting">Lighting</option>
+              <option value="Electronics">Electronics</option>
+              <option value="Maintenance">Maintenance</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="product-grid" id="productGrid">
+          <p class="loading">Loading BikeHub products...</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section location-section" id="location">
+      <div class="container location-card reveal">
+        <div class="location-logo-wrap">
+          <img src="images/bikehub-real-logo.jpg" alt="Bike Hub logo" />
+        </div>
+        <div class="location-content">
+          <p class="kicker">Shop location</p>
+          <h2>Visit Bike Hub</h2>
+          <p><strong>267/4 Warana Rd, Kalagedihena</strong></p>
+          <p>Visit the shop or contact Bike Hub before placing large accessory orders.</p>
+          <a class="btn primary" href="https://share.google/Y3x25ZjLcrM0lJzkl" target="_blank" rel="noopener">Open Bike Hub Location</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div class="container contact-card reveal">
+        <div>
+          <p class="kicker">Contact</p>
+          <h2>Build your dream ride today</h2>
+          <p>Bike Hub helps riders buy accessories, inspect product photos, check stock and order with cash on delivery.</p>
+        </div>
+        <div class="contact-box">
+          <div class="contact-logo-box"><img src="images/bikehub-real-logo.jpg" alt="Bike Hub logo"></div>
+          <p><strong>Phone:</strong> 0768664483</p>
+          <p><strong>Email:</strong> hasantha.madhuka.93@gmail.com</p>
+          <p><strong>Address:</strong> 267/4 Warana Rd, Kalagedihena</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <aside class="cart-drawer" id="cartDrawer">
+    <div class="cart-header">
+      <h2>Bike Hub Cart</h2>
+      <button id="closeCartBtn">×</button>
+    </div>
+    <div class="cart-items" id="cartItems"></div>
+    <div class="cart-footer">
+      <div>
+        <span>Total</span>
+        <strong id="cartTotal">LKR 0</strong>
+      </div>
+      <button class="btn primary full" id="checkoutBtn">Order via WhatsApp</button>
+    </div>
+  </aside>
+  <div class="overlay" id="overlay"></div>
+
+  <a class="floating-whatsapp-btn" href="https://wa.me/94768664483?text=Hello%20BikeHub%2C%20I%20want%20to%20order%20bike%20accessories." target="_blank" rel="noopener" aria-label="Order BikeHub products through WhatsApp">
+    <span class="wa-icon">💬</span>
+    <span class="wa-text"><strong>WhatsApp</strong><small>Order Now</small></span>
+  </a>
+
+  <footer class="footer">
+    <div class="container footer-wrap">
+      <p>© 2026 Bike Hub. Modern bike accessories store.</p>
+      <p>267/4 Warana Rd, Kalagedihena · 0768664483 · hasantha.madhuka.93@gmail.com</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

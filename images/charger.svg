@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 300">
+<defs>
+<linearGradient id="g" x1="0" x2="1"><stop offset="0" stop-color="#facc15"/><stop offset="1" stop-color="#fb923c"/></linearGradient>
+<radialGradient id="r" cx="50%" cy="45%" r="60%"><stop offset="0" stop-color="#facc15" stop-opacity=".35"/><stop offset="1" stop-color="#111113" stop-opacity="0"/></radialGradient>
+<filter id="s"><feDropShadow dx="0" dy="20" stdDeviation="18" flood-color="#facc15" flood-opacity=".28"/></filter>
+</defs>
+<rect width="420" height="300" rx="34" fill="#111113"/>
+<circle cx="210" cy="145" r="118" fill="url(#r)"/>
+<g filter="url(#s)"><rect x="133" y="102" width="154" height="116" rx="28" fill="#070707" stroke="url(#g)" stroke-width="12"/>
+<path d="M184 91 V58 M236 91 V58" stroke="#fff" stroke-width="12" stroke-linecap="round"/>
+<path d="M211 124 L190 158 H211 L199 197 L237 147 H213 L226 124Z" fill="#facc15"/>
+<path d="M288 158 C346 160 353 220 304 232" fill="none" stroke="#facc15" stroke-width="10" stroke-linecap="round"/></g>
+<text x="210" y="268" text-anchor="middle" font-family="Arial" font-size="22" font-weight="900" fill="#facc15">USB Charger</text>
+</svg>

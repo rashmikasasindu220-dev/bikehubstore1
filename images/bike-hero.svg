@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 520">
+<defs>
+<linearGradient id="y" x1="0" x2="1"><stop offset="0" stop-color="#facc15"/><stop offset=".55" stop-color="#fde047"/><stop offset="1" stop-color="#fb923c"/></linearGradient>
+<radialGradient id="glow" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="#facc15" stop-opacity=".55"/><stop offset="1" stop-color="#facc15" stop-opacity="0"/></radialGradient>
+<filter id="ds"><feDropShadow dx="0" dy="30" stdDeviation="28" flood-color="#facc15" flood-opacity=".25"/></filter>
+</defs>
+<ellipse cx="390" cy="282" rx="330" ry="190" fill="url(#glow)"/>
+<g filter="url(#ds)">
+<circle cx="205" cy="355" r="82" fill="#070707" stroke="url(#y)" stroke-width="20"/>
+<circle cx="205" cy="355" r="43" fill="none" stroke="#fff" stroke-width="6" opacity=".25"/>
+<circle cx="585" cy="355" r="82" fill="#070707" stroke="url(#y)" stroke-width="20"/>
+<circle cx="585" cy="355" r="43" fill="none" stroke="#fff" stroke-width="6" opacity=".25"/>
+<path d="M205 355 L322 196 L421 355 L585 355 L455 191 L360 191 L421 355 L314 355 L360 191" fill="none" stroke="#facc15" stroke-width="22" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M360 178 H468" stroke="#fff" stroke-width="18" stroke-linecap="round"/>
+<path d="M468 191 C538 174 598 184 647 224" fill="none" stroke="#facc15" stroke-width="18" stroke-linecap="round"/>
+<path d="M643 220 L690 207" stroke="#fff" stroke-width="14" stroke-linecap="round"/>
+<path d="M317 196 C280 152 260 136 220 137" fill="none" stroke="#facc15" stroke-width="18" stroke-linecap="round"/>
+<path d="M190 137 H248" stroke="#fff" stroke-width="14" stroke-linecap="round"/>
+<path d="M392 118 C444 96 510 100 560 128 C522 152 450 153 392 118Z" fill="url(#y)" opacity=".95"/>
+<path d="M94 225 H248" stroke="#facc15" stroke-width="9" stroke-linecap="round" opacity=".7"/>
+<path d="M70 270 H192" stroke="#facc15" stroke-width="6" stroke-linecap="round" opacity=".45"/>
+<path d="M566 132 H716" stroke="#facc15" stroke-width="7" stroke-linecap="round" opacity=".65"/>
+</g>
+</svg>

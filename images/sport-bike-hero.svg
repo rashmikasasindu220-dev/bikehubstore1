@@ -1,0 +1,111 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 560">
+  <defs>
+    <linearGradient id="gold" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#fde047"/>
+      <stop offset="0.45" stop-color="#facc15"/>
+      <stop offset="1" stop-color="#fb923c"/>
+    </linearGradient>
+    <linearGradient id="darkBody" x1="0" x2="1">
+      <stop offset="0" stop-color="#050505"/>
+      <stop offset="0.45" stop-color="#1f1f22"/>
+      <stop offset="1" stop-color="#050505"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="52%" cy="55%" r="58%">
+      <stop offset="0" stop-color="#facc15" stop-opacity="0.42"/>
+      <stop offset="0.55" stop-color="#facc15" stop-opacity="0.10"/>
+      <stop offset="1" stop-color="#facc15" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="shadow">
+      <feDropShadow dx="0" dy="26" stdDeviation="22" flood-color="#facc15" flood-opacity="0.35"/>
+    </filter>
+    <filter id="soft">
+      <feGaussianBlur stdDeviation="5"/>
+    </filter>
+  </defs>
+
+  <rect width="920" height="560" fill="none"/>
+  <ellipse cx="500" cy="292" rx="390" ry="225" fill="url(#glow)"/>
+
+  <!-- speed lines -->
+  <g opacity=".52">
+    <path d="M98 402 C240 330 356 294 476 276" stroke="#facc15" stroke-width="5" stroke-linecap="round"/>
+    <path d="M128 445 C292 370 430 336 625 300" stroke="#fb923c" stroke-width="4" stroke-linecap="round"/>
+    <path d="M188 490 C350 410 532 366 820 324" stroke="#facc15" stroke-width="8" stroke-linecap="round" opacity=".85"/>
+    <path d="M644 114 H854" stroke="#facc15" stroke-width="7" stroke-linecap="round" opacity=".55"/>
+    <path d="M708 158 H900" stroke="#facc15" stroke-width="5" stroke-linecap="round" opacity=".35"/>
+  </g>
+
+  <g filter="url(#shadow)">
+    <!-- ground reflection -->
+    <ellipse cx="560" cy="462" rx="315" ry="42" fill="#facc15" opacity=".17" filter="url(#soft)"/>
+
+    <!-- rear wheel -->
+    <circle cx="678" cy="382" r="86" fill="#050505" stroke="#101014" stroke-width="26"/>
+    <circle cx="678" cy="382" r="86" fill="none" stroke="url(#gold)" stroke-width="12"/>
+    <circle cx="678" cy="382" r="50" fill="none" stroke="#55555c" stroke-width="7"/>
+    <circle cx="678" cy="382" r="18" fill="#111" stroke="#facc15" stroke-width="5"/>
+    <path d="M678 312 L678 452 M608 382 H748 M628 332 L728 432 M728 332 L628 432" stroke="#2d2d33" stroke-width="4" opacity=".9"/>
+
+    <!-- front wheel -->
+    <circle cx="352" cy="400" r="98" fill="#050505" stroke="#101014" stroke-width="28"/>
+    <circle cx="352" cy="400" r="98" fill="none" stroke="url(#gold)" stroke-width="13"/>
+    <circle cx="352" cy="400" r="60" fill="none" stroke="#5f5f66" stroke-width="8"/>
+    <circle cx="352" cy="400" r="22" fill="#111" stroke="#facc15" stroke-width="5"/>
+    <path d="M352 310 L352 490 M262 400 H442 M288 336 L416 464 M416 336 L288 464" stroke="#303038" stroke-width="4"/>
+    <circle cx="352" cy="400" r="42" fill="none" stroke="#d4d4d8" stroke-width="3" opacity=".55"/>
+
+    <!-- frame and body -->
+    <path d="M350 323 C398 232 488 178 606 166 C702 158 782 198 833 258 C790 256 742 264 693 286 C632 314 555 327 480 326 C426 325 384 323 350 323Z" fill="url(#darkBody)" stroke="url(#gold)" stroke-width="6"/>
+    <path d="M436 249 C508 178 646 150 755 216 C710 240 650 252 574 252 C512 252 466 252 436 249Z" fill="#131317" stroke="#facc15" stroke-width="5"/>
+    <path d="M504 178 C560 122 662 113 730 154 C680 166 625 180 570 200 C540 211 516 204 504 178Z" fill="#0b0b0d" stroke="#d4d4d8" stroke-width="4" opacity=".9"/>
+    <path d="M618 156 C655 130 711 134 752 167 C712 162 671 166 628 184Z" fill="#25252a" stroke="#facc15" stroke-width="4"/>
+
+    <!-- front fairing -->
+    <path d="M300 314 C350 238 432 212 536 232 C478 270 430 333 396 414 C354 400 318 368 300 314Z" fill="url(#darkBody)" stroke="url(#gold)" stroke-width="6"/>
+    <path d="M292 300 C318 239 365 200 438 184 C406 230 382 282 372 338 C338 335 312 324 292 300Z" fill="#0a0a0b" stroke="#facc15" stroke-width="5"/>
+
+    <!-- yellow highlight panels -->
+    <path d="M455 288 C530 302 612 290 694 255 C650 313 564 349 457 341Z" fill="url(#gold)" opacity=".86"/>
+    <path d="M478 350 L676 328 L604 400 L410 411Z" fill="#080809" stroke="#facc15" stroke-width="6"/>
+    <path d="M516 365 L635 352 L594 388 L468 395Z" fill="url(#gold)" opacity=".9"/>
+    <path d="M700 242 C762 242 812 255 852 281 C785 282 738 297 695 336 C714 298 716 266 700 242Z" fill="#0b0b0d" stroke="#facc15" stroke-width="5"/>
+
+    <!-- seat and tail -->
+    <path d="M605 174 C657 166 720 172 770 192 L736 224 C684 210 634 205 588 210Z" fill="#0b0b0d" stroke="#d4d4d8" stroke-width="5"/>
+    <path d="M735 189 L850 160 C824 207 784 236 735 224Z" fill="url(#gold)" stroke="#facc15" stroke-width="5"/>
+    <path d="M819 193 L890 214" stroke="#facc15" stroke-width="7" stroke-linecap="round"/>
+    <path d="M848 213 L894 206" stroke="#facc15" stroke-width="5" stroke-linecap="round"/>
+
+    <!-- front fork -->
+    <path d="M432 262 L364 408" stroke="#facc15" stroke-width="13" stroke-linecap="round"/>
+    <path d="M456 272 L384 423" stroke="#d4d4d8" stroke-width="8" stroke-linecap="round" opacity=".85"/>
+
+    <!-- handlebar and mirrors -->
+    <path d="M563 183 C610 166 646 170 676 190" stroke="#d4d4d8" stroke-width="10" stroke-linecap="round"/>
+    <path d="M654 171 L704 132" stroke="#facc15" stroke-width="7" stroke-linecap="round"/>
+    <path d="M707 128 L765 115" stroke="#d4d4d8" stroke-width="10" stroke-linecap="round"/>
+    <path d="M476 184 L421 139" stroke="#facc15" stroke-width="7" stroke-linecap="round"/>
+    <path d="M418 136 L363 119" stroke="#d4d4d8" stroke-width="10" stroke-linecap="round"/>
+
+    <!-- headlights -->
+    <path d="M330 271 C368 250 420 242 470 251 C436 275 388 287 337 288Z" fill="#fef08a" stroke="#facc15" stroke-width="5"/>
+    <path d="M343 272 C380 260 413 257 445 260 C418 272 382 279 350 279Z" fill="#ffffff" opacity=".75"/>
+    <path d="M300 288 L150 240" stroke="#facc15" stroke-width="8" stroke-linecap="round" opacity=".55"/>
+    <path d="M320 306 L118 298" stroke="#facc15" stroke-width="5" stroke-linecap="round" opacity=".32"/>
+
+    <!-- engine detail -->
+    <circle cx="533" cy="358" r="36" fill="#0b0b0d" stroke="#44444c" stroke-width="8"/>
+    <circle cx="533" cy="358" r="15" fill="#facc15" opacity=".9"/>
+    <path d="M566 355 C628 354 668 365 704 392" stroke="#3f3f46" stroke-width="12" stroke-linecap="round"/>
+    <path d="M521 392 C590 420 650 423 714 401" stroke="#16161a" stroke-width="10" stroke-linecap="round"/>
+
+    <!-- logo/brand on bike -->
+    <text x="548" y="316" font-family="Arial, sans-serif" font-weight="900" font-size="30" fill="#facc15" transform="rotate(-5 548 316)">BIKE</text>
+    <text x="552" y="346" font-family="Arial, sans-serif" font-weight="900" font-size="30" fill="#facc15" transform="rotate(-5 552 346)">HUB</text>
+
+    <!-- neon outline strokes -->
+    <path d="M310 313 C385 290 456 292 540 308" fill="none" stroke="#facc15" stroke-width="3" opacity=".85"/>
+    <path d="M426 244 C518 218 622 204 742 220" fill="none" stroke="#facc15" stroke-width="3" opacity=".6"/>
+    <path d="M690 288 C734 262 786 256 844 275" fill="none" stroke="#facc15" stroke-width="4" opacity=".75"/>
+  </g>
+</svg>

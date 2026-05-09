@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bike Hub | Checkout</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="images/bikehub-real-logo.jpg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700;900&family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="noise"></div>
+
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand brand-highlight" href="index.html">
+        <img class="brand-logo-real" src="images/bikehub-real-logo.jpg" alt="Bike Hub shop logo" />
+        <span>
+          <strong>Bike Hub</strong>
+          <small>COD Checkout</small>
+        </span>
+      </a>
+
+      <nav class="nav">
+        <a href="index.html">Home</a>
+        <a href="index.html#products">Products</a>
+        <a href="index.html#location">Location</a>
+        <a href="index.html#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="checkout-page">
+    <section class="checkout-hero container">
+      <div>
+        <p class="kicker">WHATSAPP COD CHECKOUT</p>
+        <h1>Place Your WhatsApp Order</h1>
+        <p>Review your cart, enter your delivery details, then send the order to BikeHub through WhatsApp. Admin will manually save the order on the shop computer.</p>
+        <div class="checkout-business-note">
+          <span>📍 267/4 Warana Rd, Kalagedihena</span>
+          <span>📞 0768664483</span>
+          <span>✉️ hasantha.madhuka.93@gmail.com</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="checkout-layout container">
+      <form class="checkout-main-card" id="checkoutForm">
+        <div class="checkout-card-head">
+          <h2>Customer Details</h2>
+          <p>Please enter correct details for delivery and order confirmation.</p>
+        </div>
+
+        <div class="checkout-form-grid">
+          <label>Customer Name
+            <input type="text" id="customerName" required placeholder="Enter your name">
+          </label>
+
+          <label>Phone Number
+            <input type="tel" id="customerPhone" required placeholder="07XXXXXXXX">
+          </label>
+
+          <label>Email Address
+            <input type="email" id="customerEmail" placeholder="example@gmail.com">
+          </label>
+
+          <label>Delivery Address
+            <textarea id="customerAddress" required placeholder="Enter delivery address"></textarea>
+          </label>
+
+          <label class="full-field">Order Note
+            <textarea id="customerNote" placeholder="Optional message"></textarea>
+          </label>
+        </div>
+
+
+        <div class="payment-section cod-only-section">
+          <div class="checkout-card-head small-head">
+            <h2>Payment Method</h2>
+            <p>This store uses Cash on Delivery only. Your order will be sent to BikeHub WhatsApp for manual confirmation.</p>
+          </div>
+
+          <div class="payment-options cod-single">
+            <div class="payment-option active cod-locked">
+              <span class="payment-icon">💵</span>
+              <span><strong>Cash on Delivery</strong><small>Customer pays when the order is delivered.</small></span>
+            </div>
+          </div>
+        </div>
+
+        <button type="submit" class="btn primary full checkout-whatsapp-direct">💬 Place Order via WhatsApp</button>
+        <p class="checkout-message" id="checkoutMessage"></p>
+      </form>
+
+      <aside class="checkout-summary-card">
+        <div class="checkout-card-head">
+          <h2>Order Summary</h2>
+          <p>Your selected cart items. The order details will be sent through WhatsApp and payment will be collected at delivery.</p>
+        </div>
+
+        <div id="checkoutItems" class="checkout-items"></div>
+
+        <div class="checkout-total-line">
+          <span>Total Amount</span>
+          <strong id="checkoutTotal">LKR 0</strong>
+        </div>
+
+        <a href="index.html#products" class="btn ghost full">← Continue Shopping</a>
+      </aside>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-wrap">
+      <p>© 2026 Bike Hub.</p>
+      <p>267/4 Warana Rd, Kalagedihena · 0768664483 · hasantha.madhuka.93@gmail.com</p>
+    </div>
+  </footer>
+
+  <script src="checkout.js"></script>
+</body>
+</html>

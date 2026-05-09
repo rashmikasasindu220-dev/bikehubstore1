@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bike Hub | Order Confirmed</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="images/bikehub-real-logo.jpg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700;900&family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+  <main class="thankyou-page">
+    <section class="thankyou-card">
+      <img src="images/bikehub-real-logo.jpg" alt="Bike Hub logo">
+      <p class="kicker">WHATSAPP ORDER SENT</p>
+      <h1>Thank You!</h1>
+      <p>Your BikeHub order message has been opened in WhatsApp. Please tap Send in WhatsApp so BikeHub can confirm your Cash on Delivery order.</p>
+      <strong id="thankYouOrderId"></strong>
+      <a href="index.html" class="btn primary full">Back to Home</a>
+    </section>
+  </main>
+
+  <script>
+    const params = new URLSearchParams(window.location.search);
+    const orderId = params.get("orderId");
+    document.getElementById("thankYouOrderId").textContent = orderId ? "Order Reference: " + orderId : "";
+  </script>
+</body>
+</html>
