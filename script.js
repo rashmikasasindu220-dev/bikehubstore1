@@ -7,6 +7,7 @@ const fallbackProducts = [
   
 { id: 3, name: "Indicator Light Set", category: "Lighting", price: 6800, oldPrice: 8200, rating: 4.5, stock: 6, badge: "Bright", image: "images/indicator.svg", images: ["images/indicator.svg"] },
 {id: 4,  name: "Light Set", category: "Lighting", price: 6800,  oldPrice: 8200,rating: 4.5,stock: 6, badge: "Bright",image: "images/light-set-1.jpg",images: [  "images/light-set-1.jpg",  "images/light-set-2.jpg",   "images/light-set-3.jpg"]}];
+{id: 5,  name: "Lightttt Set", category: "Lighting", price: 6800,  oldPrice: 8200,rating: 4.5,stock: 6, badge: "Bright",image: "images/light-set-1.jpg",images: [  "images/light-set-1.jpg",  "images/light-set-2.jpg",   "images/light-set-3.jpg"]}];
 
 const WHATSAPP_PHONE = "94768664483";
 
